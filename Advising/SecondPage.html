@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="second.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<title>Academic Advising</title>
+<style>
+.container {
+  padding: 16px;
+  text-align: center;
+  font-family: Arial;
+  font-size:20px; 
+  font-weight:500;
+}
+table {
+	width:676px;
+	background-image: url("box_blue_4.png") !important;
+	border: thin;
+	border-top: none;
+	margin-left: auto;
+	margin-right: auto;
+	font-weight:500;
+	background-size: 100% 100%;
+}
+.borderin {
+	border-image-source: url("Line.png");
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h3>Self-Assessment</h3>
+<p>&nbsp;</p>
+<p style="color:#f8741a; font-size:20px; font-weight:500;">*Self-Assessment: This is for your own use only.</p>
+	<p style="color:#f8741a;">The responses will not be shared with anyone.</p>
+<p>&nbsp;</p>
+<p>Please take a few minutes to reflect on these </p>
+<p>statements, and to what extent they discribe your experience:</p>
+
+<table>
+  <tbody> 
+  <tr>
+      <td colspan="3">&nbsp;</td>
+    </tr>
+	<tr>
+      <td colspan="3">&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="3">1. I am happy with my academic progress</td>
+    </tr>
+    <tr class="borderin">
+      <td><input type="image" id="laughImage1" src="laugh_blue.png" width="80" height="80" alt="image" onclick="changeLaugh1()"/> </td>
+      <td><input type="image" id="FineImage1"  src="fine_blue.png" width="80" height="80" alt="img" onclick="changeFine1()"/></td>
+      <td><input type="image" id="SadImage1"  src="sad_blue.png" width="80" height="80" alt="img" onclick="changeSad1()"/></td>
+    </tr>
+    <tr>
+      <td colspan="3">2. I am glad I chose this degree</td>
+    </tr>
+    <tr>
+      <td><input type="image" id="laughImage2" src="laugh_blue.png" width="80" height="80" alt="img" onclick="changeLaugh2()"/></td>
+      <td><input type="image" id="FineImage2" src="fine_blue.png" width="80" height="80" alt="img" onclick="changeFine2()"/></td>
+      <td><input type="image" id="SadImage2" src="sad_blue.png" width="80" height="80" alt="img" onclick="changeSad2()"/></td>
+    </tr>
+    <tr>
+      <td colspan="3">3. I am satisfied with the modules I selected</td>
+    </tr>
+    <tr>
+      <td><input type="image" id="laughImage3"  src="laugh_blue.png" width="80" height="80" alt="img" onclick="changeLaugh3()"/></td>
+      <td><input type="image" id="FineImage3"  src="fine_blue.png" width="80" height="80" alt="img" onclick="changeFine3()"/></td>
+      <td><input type="image" id="SadImage3"  src="sad_blue.png" width="80" height="80" alt="img" onclick="changeSad3()"/></td>
+    </tr>
+    <tr>
+      <td colspan="3">4. I am on top of my assignments and exams</td>
+    </tr>
+    <tr>
+      <td><input type="image" id="laughImage4"  src="laugh_blue.png" width="80" height="80" alt="img" onclick="changeLaugh4()"/></td>
+      <td><input type="image" id="FineImage4"  src="fine_blue.png" width="80" height="80" alt="img" onclick="changeFine4()"/></td>
+      <td><input type="image" id="SadImage4"  src="sad_blue.png" width="80" height="80" alt="img" onclick="changeSad4()"/></td>
+    </tr>
+    <tr>
+      <td colspan="3">5. I am enjoying my studies in UCD</td>
+    </tr>
+    <tr>
+      <td><input type="image" id="laughImage5"  src="laugh_blue.png" width="80" height="80" alt="img" onclick="changeLaugh5()"/></td>
+      <td><input type="image" id="FineImage5"  src="fine_blue.png" width="80" height="80" alt="img" onclick="changeFine5()"/></td>
+      <td><input type="image" id="SadImage5"  src="sad_blue.png" width="80" height="80" alt="img" onclick="changeSad5()"/></td>
+    </tr>
+    <tr>
+      <td colspan="3">6. I have a good work/life balance</td>
+    </tr>
+    <tr>
+     <td><input type="image" id="laughImage6"  src="laugh_blue.png" width="80" height="80" alt="img" onclick="changeLaugh6()"/></td>
+      <td><input type="image" id="FineImage6"  src="fine_blue.png" width="80" height="80" alt="img" onclick="changeFine6()"/></td>
+      <td><input type="image" id="SadImage6"  src="sad_blue.png" width="80" height="80" alt="img" onclick="changeSad6()"/></td>
+    </tr>
+    <tr>
+      <td colspan="3">7. I am happy with my plans for after I graduate</td>
+    </tr>
+    <tr>
+      <td><input type="image" id="laughImage7"  src="laugh_blue.png" width="80" height="80" alt="img" onclick="changeLaugh7()"/></td>
+      <td><input type="image" id="FineImage7"  src="fine_blue.png" width="80" height="80" alt="img" onclick="changeFine7()"/></td>
+      <td><input type="image" id="SadImage7"  src="sad_blue.png" width="80" height="80" alt="img" onclick="changeSad7()"/></td>
+    </tr>
+    <tr>
+      <td colspan="3">8. I know where to seek student support and advice in UCD</td>
+    </tr>
+    <tr>
+      <td><input type="image" id="laughImage8"  src="laugh_blue.png" width="80" height="80" alt="img" onclick="changeLaugh8()"/></td>
+      <td><input type="image" id="FineImage8"  src="fine_blue.png" width="80" height="80" alt="img" onclick="changeFine8()"/></td>
+      <td><input type="image" id="SadImage8"  src="sad_blue.png" width="80" height="80" alt="img" onclick="changeSad8()"/></td>
+    </tr>
+  </tbody>
+</table>
+<form action="ThirdPage.html">
+      
+<p><input id="cc" type="image" src="button_next_gray.png" width="678" height="96" alt="image" disabled /></p>
+</form>
+</div>
+<script src='advising.js'></script>	
+</body>
+</html>

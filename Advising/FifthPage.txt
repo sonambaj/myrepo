@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    .container {
+  padding: 16px;
+}
+</style>
+<body>
+<div class="container">
+<h3>Self-Assessment</h3>
+<p>&nbsp;</p>
+<p>On reflection, what are the challenges you have faced or are facing in accomplishing your academic goals? </p>
+
+<textarea id="message" placeholder="Say Something" cols="30" rows="8"></textarea>
+</div>
+</body>
+</html>
